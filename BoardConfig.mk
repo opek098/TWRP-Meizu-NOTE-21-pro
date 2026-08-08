@@ -170,4 +170,8 @@ TARGET_INIT_VENDOR_LIB := libinit_MEIZU-M4125H
 TARGET_RECOVERY_DEVICE_MODULES := libinit_MEIZU-M4125H
 
 # Maintainer (optional)
-TW_MAINTAINER := "Opek X Furina"
+TW_MAINTAINER := "Opek フリナ"
+
+# Crypto & Keymaster Configuration
+TW_FORCE_KEYMASTER_VER := true
+OF_DEFAULT_KEYMASTER_VERSION := 4.1
